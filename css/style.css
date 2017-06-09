@@ -2,6 +2,8 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+
+/* Sección 1 Bienvenida */
 .navbar-default{
 	z-index: 1;
 	background-color: transparent;
@@ -15,7 +17,7 @@ army green: 41521F;
 }
 
 .container-fluid>.navbar-header{
-	padding-left: 11em;
+	padding-left: 14em;
 }
 
 .navbar-nav li a{
@@ -28,7 +30,6 @@ army green: 41521F;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
-	font-weight: 800;
 }
 
 .bienvenida h1{
@@ -42,3 +43,71 @@ army green: 41521F;
 	border: none;
 	font-weight: 600;
 }
+
+/* Sección 2 */
+.tres {
+	margin-top: 60px;
+	margin-bottom: 120px;
+}
+
+.second-section{
+	font-size: 12px;
+}
+
+/*.two-section{
+	margin-top: 100px;
+}*/
+
+/* Sección 3 */
+.title-second-section {
+	color: #A89F68;
+	font-weight: 600;
+}
+
+.third-section{
+	background-color: #A89F68;
+}
+
+.title-third-section{
+	color: #41521F;
+	font-weight: 600;
+}
+
+.third-section h5{
+	font-size: 16px;
+	color: #fff;
+	padding-top: 7em;
+}
+
+.third-section p, .no-tree{
+	color: #fff;
+}
+
+.thing{
+	text-align: center;
+	margin-bottom: 80px;
+	border: 7px solid white;
+	margin-top: 9em;
+	padding-top: 0;
+	position: relative;
+}
+
+
+.container-fourth-section{
+	background-image: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+}
+.text-left{
+	margin-top: 80px;
+	padding-left: 30px;
+}
+
+.text-left h3{
+	padding-top: 10px;
+	padding-left: 0px;
+	font-weight: 600;
+}
+
