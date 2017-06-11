@@ -7,6 +7,7 @@ army green: 41521F;
 .navbar-default{
 	z-index: 1;
 	background-color: transparent;
+	background: transparent;
 	border-color: transparent;
 	color:#FFF;
 }
@@ -17,7 +18,7 @@ army green: 41521F;
 }
 
 .container-fluid>.navbar-header{
-	padding-left: 14em;
+	padding-left: 2em;
 }
 
 .navbar-nav li a{
@@ -29,10 +30,15 @@ army green: 41521F;
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #fff;
 }
 
+.bienvenida .navbar-brand{
+	align-content: left;
+}
 .bienvenida h1{
+	text-align: left;
 	font-weight: bolder;
 	padding-top: 7em;
 }
@@ -76,6 +82,7 @@ army green: 41521F;
 /* Sección 3 */
 .third-section{
 	background-color: #A89F68;
+	text-align: left;
 }
 
 .title-third-section{
@@ -105,15 +112,15 @@ army green: 41521F;
 /* Sección 4 */
 .container-fourth-section{
 	background-image: url(../img/all.jpg);
-	height: 100vh;
+	height: 120vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .container-fourth-section .text-left{
-	margin-top: 20px;
-	margin-left: 580px;
+	margin-top: 70px;
+	margin-left: 680px;
 }
 
 .text-left h3{
@@ -125,6 +132,7 @@ army green: 41521F;
 /* Sección 5 */
 .fifth-section{
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .fifth-section h5{
@@ -147,14 +155,16 @@ army green: 41521F;
 
 .sixth-section{
 	background-color: #A89F68;
+	padding-top: 40px;
+	padding-bottom: 60px;
 }
 
 .title-sixth-section{
 	font-size: 20px;
 	color: #41521F;
 	font-weight: bolder;
-	margin-top: 70px;
-	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
